@@ -5,7 +5,7 @@ echo "Ayo, $USER! Date : $(date +%d.%m.%Y)"
 
 #if CURRENTDIR == cd .. then 
 if [[ "$CURRENTDIR" == "cd .." ]] then
-    echo "Вы ввели команду, выполняю..."
+    echo "Command detected:"
     cd ..  # Doing like command
     echo "Lets pick a dir: $CURRENTDIR"
     echo "Going to: $(pwd)"
